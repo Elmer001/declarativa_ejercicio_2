@@ -37,10 +37,10 @@ motivo(X) :- motivo(X, _).
 oportunidad(X) :- estuvo(X, biblioteca).
 
 % Motivo y oportunidad
-motivoXoportunidad(X) :- motivo(X), oportunidad(X).
+motivoXoportunidad(X) :- motivo(X, _), oportunidad(X).
 
 % Arma culpable
 arma(X) :- acceso(X, cuerda).
 
 % Culpable
-culpable(X) :- motivos(X), oportunidad(X), acceso(X, cuerda).
+culpable(X) :- motivo(X, _), oportunidad(X), acceso(X, cuerda).

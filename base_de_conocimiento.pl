@@ -28,3 +28,19 @@ estuvo(robert, cocina).
 estuvo(clara, biblioteca).
 estuvo(james, estudio).
 
+% Reglas:
+
+% Identificar personas con motivos
+motivos(X) :- motivo(X, _).
+
+% Identificar quienes estuvieron en la biblioteca
+oportunidad(X) :- estuvo(X, biblioteca).
+
+% Motivo y oportunidad
+motivo_oportunidad(X) :- motivos(X), oportunidad(X).
+
+% Arma culpable
+arma(X) :- acceso(X, cuerda).
+
+% Culpable
+culpable(X) :- motivos(X), oportunidad(X), acceso(X, cuerda).

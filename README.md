@@ -1,1 +1,2 @@
-# declarativa_ejercicio_2
+# Integrantes.
+- Elmer Josue Galvez Vasquez 00130518

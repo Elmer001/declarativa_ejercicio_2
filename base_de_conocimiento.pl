@@ -43,4 +43,4 @@ motivoXoportunidad(X) :- motivo(X, _), oportunidad(X).
 arma(X) :- acceso(X, cuerda).
 
 % Culpable
-culpable(X) :- motivo(X, _), oportunidad(X, biblioteca), acceso(X, cuerda).
+culpable(X) :- motivo(X, _), oportunidad(X), acceso(X, cuerda).

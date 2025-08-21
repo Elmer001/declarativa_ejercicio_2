@@ -31,7 +31,7 @@ estuvo(james, estudio).
 % Reglas:
 
 % Identificar personas con motivos
-motivos(X) :- motivo(X, _).
+motivo(X) :- motivo(X, _).
 
 % Identificar quienes estuvieron en la biblioteca
 oportunidad(X) :- estuvo(X, biblioteca).

@@ -1,7 +1,7 @@
 :- [base_de_conocimiento].
 :- persona(X).
-:- motivos(X).
+:- motivo(X).
 :- oportunidad(X).
-:- motivo_oportunidad(X).
+:- motivoXoportunidad(X).
 :- arma(X).
 :- culpable(X).

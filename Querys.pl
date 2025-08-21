@@ -1,3 +1,4 @@
+:- [base_de_conocimiento].
 :- persona(X).
 :- motivos(X).
 :- oportunidad(X).

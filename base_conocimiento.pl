@@ -74,4 +74,4 @@ Creencias(Durania,Espiritu de la Tierra).
 
 
 
-familia si y solo si tiene esposa o hijos,
+% familia si y solo si tiene esposa o hijos,
